@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gifs not Jifs</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">GIFS, NOT JIFS</h1>
+            <p class="lead">USE THE BUTTONS BELOW TO SUMMON GIFS.</p>
+        </div>
+    </div>
+    <div id="btn-view" class="container">
+    </div>
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+
+            <div id="gif-view"></div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h2>
+                    <legend>Here's some gifs</legend>
+                </h2>
+                <div class="form-group">
+                    <label for="gif-input">You can add more with the "add gif button</label>
+                    <input type="text" id="gif-input">
+                </div>
+                <input id="addGif" type="submit" value="add gif" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>
